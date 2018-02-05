@@ -29,6 +29,9 @@
         <device name="SND_DEVICE_OUT_SPEAKER" bit_width="24"/>
     </bit_width_configs>
     <interface_names>
+
+       <!-- followed by perf lock options -->
+        <param key="perf_lock_opts" value="4, 0x101, 0x704, 0x20F, 0x1E01"/>
 4        <device name="AUDIO_DEVICE_IN_BUILTIN_MIC" interface="SLIMBUS_0" codec_type="external"/>
         <device name="AUDIO_DEVICE_IN_BACK_MIC" interface="SLIMBUS_0" codec_type="external"/>
         <device name="AUDIO_DEVICE_IN_BUILTIN_MIC" interface="TERT_MI2S" codec_type="internal"/>
